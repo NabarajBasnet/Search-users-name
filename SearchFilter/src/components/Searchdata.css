@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    background-color: #242424;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.centerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.formfield{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.formfield input{
+    padding: 7px;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    width: 45%;
+    background-color: white;
+}
+.formfield input::placeholder{
+    padding-left: 15px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.dispsearchdata ul li{
+    list-style: none;
+    color: white;
+}
